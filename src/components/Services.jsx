@@ -20,7 +20,7 @@ const Services = () => {
           <div className='w-[130%] px-4' >
             <h2 className='text-3xl md:text-[70px] font-bold text-white font-Poppins' >Vet Clinic</h2>
             <p className='mt-6 md:mt-10 space-y-[30px] space-x-1 text-[#454647] font-Poppins text-sm md:text-2xl' >A range of services to keep your furry friends healthy and happy.</p>
-            <button className='py-2 px-4 rounded-full text-[14px] font-semibold bg-teal-700 text-white flex max-w-[200px] items-center' >
+            <button className='py-2 px-4 rounded-full text-[14px] font-semibold bg-teal-700 text-white flex max-w-[200px] items-center md:mt-10' >
               Book Appointment
               <span className=' bg-white text-black rounded-full ml-2' > <GoChevronRight className='text-2xl' /></span>
             </button>
@@ -38,7 +38,7 @@ const Services = () => {
           <div className='w-[130%]  relative left-[-30%] px-4 ' >
             <h2 className='text-3xl md:text-[70px] font-bold text-white font-Poppins'  >Grooming</h2>
             <p className='mt-6 md:mt-10 space-y-[30px] space-x-1 text-[#454647] font-Poppins text-sm md:text-2xl' >We maintain your pet’s appearance and hygiene </p>
-            <button className='py-2 px-4 rounded-full text-[14px] font-semibold bg-teal-700 text-white flex max-w-[200px] items-center' >
+            <button className='py-2 px-4 rounded-full text-[14px] font-semibold bg-teal-700 text-white flex max-w-[200px] items-center md:mt-10' >
               Book Appointment
               <span className=' bg-white text-black rounded-full ml-2' > <GoChevronRight className='text-2xl' /></span>
             </button>
