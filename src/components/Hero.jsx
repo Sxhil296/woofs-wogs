@@ -6,7 +6,7 @@ const Hero = () => {
 
 
     <>
-      <section className='bg-gradient-to-r from-cyan-300  to-cyan-100 relative min-h-[80vh] overflow-hidden font-Roboto' >
+      <section className='bg-gradient-to-r from-[#36ACC6] to-[#B9F2FF] relative min-h-[80vh] overflow-hidden font-Roboto' >
         <div className=' max-w-[1400px] py-8 bg-transparent m-auto sm:grid grid-cols-2  float  md:py-3 px-4 items-end relative' >
           <div className='md:w-[130%] text-center sm:text-left sm:pb-60' >
             <span className='font-semibold text-[#FC5E2C]' >Enjoy worry-free pet parenthood with our <br /> comprehensive care service.</span>

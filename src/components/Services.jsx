@@ -16,7 +16,7 @@ const Services = () => {
 
 
 {/* 1st */}
-        <div className='grid grid-cols-2 bg-gradient-to-r overflow-hidden max-h-96  from-teal-400 to-teal-300 rounded-md py-3   items-center relative' >
+        <div className='grid grid-cols-2 bg-gradient-to-r overflow-hidden max-h-96  from-[#3D9E9B] to-[#19F9F1] rounded-md py-3   items-center relative' >
           <div className='w-[130%] px-4' >
             <h2 className='text-3xl md:text-[70px] font-bold text-white font-Poppins' >Vet Clinic</h2>
             <p className='mt-6 md:mt-10 space-y-[30px] space-x-1 text-[#454647] font-Poppins text-sm md:text-2xl' >A range of services to keep your furry friends healthy and happy.</p>
@@ -31,7 +31,7 @@ const Services = () => {
         </div>
 
 {/* 2nd */}
-        <div className='grid grid-cols-2 bg-gradient-to-r float max-h-96 overflow-hidden from-yellow-600 to-yellow-400 rounded-md py-3 items-center relative' >
+        <div className='grid grid-cols-2 bg-gradient-to-r float max-h-96 overflow-hidden from-[#F0C554] via-[#D7AA37] to-[#A97C0B] rounded-md py-3 items-center relative' >
           <div className='md:mt-10 md:ml-1 ml-2 mt-10' >
             <img src={two} alt="" className='relative -left-3' />
           </div>
@@ -47,7 +47,7 @@ const Services = () => {
 
 
 {/* 3rd */}
-        <div className='grid grid-cols-2 bg-gradient-to-r float max-h-96 from-cyan-300 to-cyan-400 rounded-md py-3 px-4 items-center relative' >
+        <div className='grid grid-cols-2 bg-gradient-to-r float max-h-96 from-[#A7EFFF] to-[#00D1FF]  rounded-md py-3 px-4 items-center relative' >
           <div className='md:mt-16'>
             <img src={three} alt="/" className='relative -left-5 -bottom-5 md:bottom-0 w-[55%] object-cover md:w-[60%]' />
           </div>
@@ -59,7 +59,7 @@ const Services = () => {
 
 
         {/* 4th */}
-        <div className='grid grid-cols-2 bg-gradient-to-r float max-h-96 from-green-300 to-green-400 rounded-md py-3  items-center relative' >
+        <div className='grid grid-cols-2 bg-gradient-to-r float max-h-96 from-[#A8FF8A] to-[#95C96F] rounded-md py-3  items-center relative' >
           <div className='w-[130%] px-4' >
             <h2 className='text-3xl md:text-[70px] font-bold text-white font-Poppins'  >Pet Store</h2>
             <p className='mt-6 md:mt-10 space-y-[30px] space-x-1 text-[#454647] font-Poppins text-sm md:text-2xl'  >Your one-stop shop for all pet’s needs, from toys to treats, beds to bowls, and everything in between</p>
@@ -83,7 +83,7 @@ const Services = () => {
 
 
 {/* 6th */}
-        <div className='grid grid-cols-2 bg-gradient-to-r float overflow-hidden  max-h-96 from-pink-600 to-pink-400 rounded-md  items-center relative' >
+        <div className='grid grid-cols-2 bg-gradient-to-r float overflow-hidden  max-h-96  from-[#9F2656] to-[#FC5E97] rounded-md  items-center relative' >
           <div className='' >
             <img src={six} alt="/" className='relative -left-3 object-contain' />
           </div>
