@@ -49,7 +49,7 @@ const Services = () => {
 {/* 3rd */}
         <div className='grid grid-cols-2 bg-gradient-to-r float max-h-96 from-cyan-300 to-cyan-400 rounded-md py-3 px-4 items-center relative' >
           <div className='md:mt-16'>
-            <img src={three} alt="/" className='relative -left-5 -bottom-5 w-[55%] object-cover md:w-[60%]' />
+            <img src={three} alt="/" className='relative -left-5 -bottom-5 md:bottom-0 w-[55%] object-cover md:w-[60%]' />
           </div>
           <div className='w-[130%]  relative left-[-30%]' >
             <h2 className='text-3xl md:text-[70px] font-bold text-white font-Poppins'  >Creche</h2>
@@ -72,7 +72,7 @@ const Services = () => {
         {/* 5th */}
         <div className='grid grid-cols-2 bg-gradient-to-r  max-h-96 overflow-hidden float from-slate-400 to-slate-300 rounded-md py-3 px-4 items-center relative' >
           <div className='w-[130%]' >
-            <h2 className='text-3xl md:text-[70px] font-bold text-white font-Poppins'>Pick up <br />  <br className='hidden' /> and Drop</h2>
+            <h2 className='text-3xl md:text-[70px] font-bold text-white font-Poppins'>Pick up <br />  <br className='hidden md:block' /> and Drop</h2>
             <p className='mt-6 md:mt-10 space-y-[30px] space-x-1 text-[#454647] font-Poppins text-sm md:text-2xl md:mb-2'>We make life easier for you and your furry companion by offering reliable and convenient pet transportation services</p>
           </div>
           
